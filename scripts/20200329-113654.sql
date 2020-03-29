@@ -1,0 +1,1 @@
+alter table locations add column if not exists last_tracked_at timestamp default now(); 
